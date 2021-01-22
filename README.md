@@ -79,7 +79,7 @@ At the end of the practice, our ERD will look as following:
 4. Add behavior
     - **finished code**: <https://github.com/sylwiavargas/ar-more-models/tree/fourth-deliverable>
   - `Person#water_plant` -- accepts an argument of a plant and creates a new instance of `Watering` between the person and the plant; if there is an associated `PlantParenthood` with both, this method also increases the value of affection by one
-    - **video**: <https://youtu.be/ZRF3_yhEqh4>
+    - **video**: <https://youtu.be/u8GhZn_u5tg>
   - `PlantParenthood#cap_affection` -- introduces a cap on the affection value at 11_000
       - **video**: <https://youtu.be/V5vbXF47ASM>
   - `Plant#number_of_days_since_the_last_watering` -- puts "I was watered NUMBER days ago"

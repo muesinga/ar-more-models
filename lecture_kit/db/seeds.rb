@@ -37,11 +37,11 @@ PlantCategory.create(plant_id: cactus_2.id, category_id: succulent.id)
 
 # binding.pry
 
-kami = Person.create(name: "Kami", responsible: false, age: 10_000)
+joel = Person.create(name: "Joel", responsible: false, age: 10_000)
 sylwia = Person.create(name: "Sylwia", responsible: true, age: 31)
 
-PlantParenthood.create(plant_id: basil.id, person_id: kami.id, affection:0)
-PlantParenthood.create(plant_id: basil.id, person_id: kami.id, affection:1)
+PlantParenthood.create(plant_id: basil.id, person_id: joel.id, affection:0)
+PlantParenthood.create(plant_id: basil.id, person_id: joel.id, affection:1)
 PlantParenthood.create(plant_id: basil.id, person_id: sylwia.id, affection:10)
 PlantParenthood.create(plant_id: corn_tree.id, person_id: sylwia.id, affection:10)
 
